@@ -2,3 +2,21 @@ li {
     text-align: left !important; /* Left-align the text */
 }
 
+.menu-btn {
+  float: right;
+  display: none; 
+  color: white;
+  font-size: 2em;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    float: right;
+    display: none;
+    flex-direction: column;
+  }
+  .menu-btn {
+    display: block;
+  }
+}
+
